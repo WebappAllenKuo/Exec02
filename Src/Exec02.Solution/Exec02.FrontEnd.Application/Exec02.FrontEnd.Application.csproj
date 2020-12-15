@@ -45,6 +45,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\HotNewsVM.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Exec02.FrontEnd.Domain\Exec02.FrontEnd.Domain.csproj">
+      <Project>{3dd6b2cd-5dd9-4390-afc4-c4ce6509954f}</Project>
+      <Name>Exec02.FrontEnd.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
