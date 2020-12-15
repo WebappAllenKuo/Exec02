@@ -69,6 +69,7 @@
       <DependentUpon>Database1.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\NewsDataObjectConverter.cs" />
     <Compile Include="Repositories\NewsRepository.cs" />
   </ItemGroup>
   <ItemGroup>

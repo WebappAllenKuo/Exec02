@@ -22,8 +22,7 @@ namespace Exec02.FrontEnd.Infra.Data.Repositories
 				.OrderByDescending(news => news.PublishTime)
 				.Take(rows);
 
-			//todo
-			throw new NotImplementedException();
+			return data.Select(efModel => efModel.ToEntity());
 		}
 	}
 }

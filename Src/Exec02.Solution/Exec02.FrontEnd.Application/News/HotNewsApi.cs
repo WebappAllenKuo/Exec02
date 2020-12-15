@@ -26,8 +26,7 @@ namespace Exec02.FrontEnd.Application.News
 
 			if (data == null) return Enumerable.Empty<HotNewsVM>();
 
-			// todo
-			throw new NotImplementedException();
+			return data.Select(entity => entity.ToHotNewsVM());
 		}
 	}
 }
