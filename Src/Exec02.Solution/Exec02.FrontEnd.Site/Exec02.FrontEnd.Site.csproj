@@ -157,6 +157,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\AutofacConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -225,6 +226,14 @@
     <ProjectReference Include="..\Exec02.FrontEnd.Application\Exec02.FrontEnd.Application.csproj">
       <Project>{872edb18-89b7-4d75-9fbc-2457a680108c}</Project>
       <Name>Exec02.FrontEnd.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Exec02.FrontEnd.Domain\Exec02.FrontEnd.Domain.csproj">
+      <Project>{3DD6B2CD-5DD9-4390-AFC4-C4CE6509954F}</Project>
+      <Name>Exec02.FrontEnd.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Exec02.FrontEnd.Infra.Data\Exec02.FrontEnd.Infra.Data.csproj">
+      <Project>{B37DE03A-0430-4F0A-8B35-43B515E45022}</Project>
+      <Name>Exec02.FrontEnd.Infra.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
